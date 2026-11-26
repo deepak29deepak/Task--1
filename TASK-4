@@ -1,0 +1,237 @@
+## 1\. Predefined Functions
+#built in function
+# s="Deepak"
+# print(len(s))
+# n=[1,2,3,4,5,6]
+# print(max(n))
+# print(min(n))
+# print(sum(n))
+# print(sorted(n))
+# print(s.upper())
+# print(s.lower())
+# print(s.count(2))
+# print(abs(n))
+# print(set(n))
+
+#USER defined function
+# def add(a,b):
+#     print("ADD:",a+b)
+#     return add
+# add(1,2# )
+#
+# def area(l,b):
+#     print("area:",l*b)
+#     return area
+# area(3,4)
+
+# def num(a):
+#     if a%2==0:
+#         print("Even number",a)
+#     else:
+#         print("Odd number",a)
+#         return num
+# num(2)
+
+# def largest(a,b,c):
+#      if a>b and a>c:
+#          print(a)
+#          return a
+#      elif b>a and b>c:
+#          print(b)
+#          return b
+#      elif c>a and c>b:
+#          print(c)
+#          return c
+#      else:
+#          print("all small")
+#
+# largest(12,14,16)
+
+#SIMPLE INTEREST
+# def SI(p,r,t):
+#     print("p",p)
+#     print("R",r)
+#     print("T",t)
+#     print("Simple Interest:",(p*r*t)/100)
+# SI(12,4,3)
+
+# def age(n):
+#     if n>=18:
+#         print("ELigible to vote")
+#     else:
+#         print("Not eligible to vote")
+#     return n
+# age(24)
+
+#factorial
+# def fact(n):
+#     if n == 0:
+#         return 1
+#     return n * fact(n-1)
+# print(fact(5))
+
+# #Prime
+# def prime(n):
+#     if n%2==0:
+#         print("")
+
+
+#Reverse
+# def rev(Hari):
+#     return Hari[::-1]
+# rev("Hari")
+
+#Palindrome
+# def palindrome(a):
+#     b=0
+#     t=a
+#     while t>0:
+#         d=t%10
+#         b=b*10+d
+#         t=t//10
+#     print("b:",b)
+#     if b==a:
+#         print("palindrome")
+#     else:
+#         print("not palindrome")
+# palindrome(121)
+
+#Recursion
+# def name(n):
+#     if n==0:
+#         return
+#     print("DEEPAK")
+#     name(n-1)
+#     name(5)
+#1-10
+# def num():
+#     for i in range(0,11,1):
+#         print(i)
+#     return
+# num()
+#
+# #10-1
+# def num():
+#     for i in range(10,0,-1):
+#         print(i)
+#     return
+# num()
+
+# def num():
+#      for i in range(2,21,1):
+#          if i % 2 == 0:
+#              print(i)
+#
+# num()
+
+# def num():
+#     for i in range(1, 20, 1):
+#         if i % 2 != 0:
+#             print(i)
+#
+# num()
+
+# def num():
+#     for i in range(1,10,1):
+#             print(sum(5))
+# num()
+
+
+#factorial
+# def fact(n):
+#     if n == 0:
+#          return 1
+#     else:
+#         return n * fact(n-1)
+# fact(5)
+
+#power
+# def num(n):
+#     print("power:",2**n)
+#     return
+# num(3)
+
+#Sum of digits
+# def sum(n):
+#     if n == 0:
+#         return 0
+#     else:
+#         return n + sum(n-1)
+# print(sum(5))
+
+
+# def fib(n):
+#     if n == 0:
+#         return 1
+#     else:
+#       return n + fib(n-1)
+# print(fib(5))
+
+#LAMBDA
+# a = lambda x,y: x+y
+# print(a(1, 2))
+
+# a = lambda x,y: x-y
+# print(a(3, 2))
+
+# a = lambda x,y: x*y
+# print(a(1, 2))
+
+# a = lambda x: x**2
+# print(a(2))
+
+# a = lambda x: x**3
+# print(a(2))
+
+# a= lambda x:"Even"if x%2==0 else "Odd"
+# print(a(6))
+
+# a= lambda a,b:"Largest" if a>b else "Smallest"
+# print(a(12,14))
+
+# a= lambda x,y:x*y
+# print(a(2,3))
+
+# a = lambda x,y,z:x*y*z/100
+# print(a(12,3,4))
+
+# a= lambda x:(x*9/5)+32
+# print(a(45))
+
+#MAPPING
+# a=[1,2,3,4,5]
+# square=list(map(lambda x: x**2, a))
+# print(square)
+
+# a=[1,2,3,4,5]
+# cube=list(map(lambda x: x**3, a))
+# print(cube)
+
+# a=[1,2,3,4,5]
+# mul=list(map(lambda x: x*5, a))
+# print(mul)
+
+# a=[1,2,3,4,5]
+# add=list(map(lambda x: x+10, a))
+# print(add)
+
+# a=["deepak","hari","rajan"]
+# letters=list(map(lambda x:x.upper(),a))
+# print(letters)
+
+# a=["deepak","hari","rajan"]
+# letters=list(map(lambda x:x.lower(),a))
+# print(letters)
+
+# a=[32,33,35,36]
+# cel=list(map(lambda x:(x*9/5)+32,a)
+# print(cel)
+
+# a=["deepak","hari","rajan"]
+# letters=list(map(lambda x:len(x),a))
+# print(letters)
+
+# a=[1,2,3]
+# b=[4,5,6]
+# result=list(map(lambda a,b:a+b,a,b))
+# print(result)
