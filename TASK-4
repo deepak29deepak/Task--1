@@ -235,3 +235,88 @@
 # b=[4,5,6]
 # result=list(map(lambda a,b:a+b,a,b))
 # print(result)
+
+#FILTER
+# a=[1,2,3,4,5,6]
+# even=list(filter(lambda x: x % 2 == 0, a))
+# print(even)
+#
+# a=[1,2,3,4,5,6]
+# odd=list(filter(lambda x: x % 2 != 0, a))
+# print(odd)
+
+# a=[1,2,35,6,6,78,90,45,2]
+# large=list(filter(lambda x:x>10,a))
+# print(large)
+#
+# a=[1,2,35,6,6,78,90,45,2]
+# small=list(filter(lambda x:x<50,a))
+# print(small)
+
+# a=[-1,-2,3,45,-9]
+# positive=(list(filter(lambda x:x>0,a)))
+# print("POSITIVE",positive)
+# negative=(list(filter(lambda x:x<0,a)))
+# print("NEGATIVE",negative)
+
+# a=[12,10,15,23,25]
+# div=(list(filter(lambda x:x%5==0,a)))
+# print(div)
+
+# a=["Ashik","Arun","hari"]
+# letters=list(filter(lambda x:x.startswith("A"),a))
+# print(letters)
+
+# a=["messi","ronaldo","neymar","pogba"]
+# char=(list(filter(lambda x:len(x)>5,a)))
+# print(char)
+
+# a = {"deepak": 76, "rohan": 65, "bala": 89,"mani":34}
+# mark = dict(filter(lambda x: x[1] > 50, a.items()))
+# print(mark)
+
+
+#Challenge level
+
+
+# def square(n):
+#     num = lambda x: x ** 2
+#     return num(n)
+# print(square(3))
+#
+# nums = [1,2,4,5,7,8,9,12,13,14,34,23]
+# prime = list(filter(lambda x: x %2 == 0, nums))
+# print(prime)
+
+# def total_and_average(marks):
+#  total = sum(marks)
+#  average = total/5
+#  return total,average
+# marks = [60,60,70,70,80]
+# print(total_and_average(marks))
+
+# def grade(mark):
+#     if mark >=90:
+#         return "A"
+#     elif mark >=80:
+#         return "B"
+#     elif mark >=70:
+#         return "C"
+#     elif mark >=60:
+#         return "D"
+#     elif mark >=50:
+#         return "E"
+#     else:
+#         return "F"
+# marks=[95, 82, 74, 61, 53, 45]
+# grades=list(map(grade,marks))
+# print("Grades:",grades)
+
+
+# a={"Hari":50000,"Deepak":45000,"Gopal":34000,"Kumar":12000}
+# salary=(dict(filter(lambda x:x[1]>25000,a.items())))
+# print(salary)
+
+# def reverse(s):
+
+
